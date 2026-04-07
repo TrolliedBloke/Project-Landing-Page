@@ -78,3 +78,42 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Random Information Section */
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.information-section #information ul {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.information-section #information li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  text-align: center;
+}
+
+.information-section #information li div {
+  border: 3px solid rgb(113, 113, 251);
+  border-radius: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.information-section #information li p {
+  margin-top: 8px;
+  font-size: 14px;
+}
