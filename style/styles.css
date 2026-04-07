@@ -170,3 +170,12 @@ body {
   color: white;
   border-radius: 5px;
 }
+
+/* Water Mark */
+.watermark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  color: white;
+}
