@@ -39,4 +39,42 @@ body {
   font-size: 18px;
 }
 
-/* ------------------------------ */
+/* Hero Section */
+
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 40px;
+  padding: 40px;
+}
+#hero-text {
+  color: white;
+  padding: 60px;
+}
+#hero-text h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+#hero-text p {
+  font-size: 18px;
+  color: white;
+}
+#hero-text button {
+  background-color: #3882f6;
+  color: white;
+  height: 27px;
+  width: 100px;
+  border-radius: 6px;
+  border-style: none;
+}
+#hero-image {
+  background-color: grey;
+  display: flex;
+  height: 200px;
+  width: 600px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
